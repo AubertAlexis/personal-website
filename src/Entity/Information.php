@@ -14,21 +14,25 @@ class Information
 {
     /**
      * @var string|null
+     * @ORM\Column(type="string")
      */
     private ?string $title = null;
 
     /**
      * @var string|null
+     * @ORM\Column(type="string")
      */
     private ?string $subtitle = null;
 
     /**
      * @var string|null
+     * @ORM\Column(type="string")
      */
     private ?string $buttonText = null;
 
     /**
      * @var string|null
+     * @ORM\Column(type="string")
      */
     private ?string $buttonUrl = null;
 
